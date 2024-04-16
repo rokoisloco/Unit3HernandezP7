@@ -496,7 +496,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 3bd8a450fcb589542a7843ea7bda2ee6, type: 3}
       propertyPath: m_Name
-      value: SimpleFarmer_Man_01_White
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3bd8a450fcb589542a7843ea7bda2ee6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -569,6 +569,7 @@ MonoBehaviour:
   jumpForce: 0
   gravityModifier: 0
   isOnGround: 1
+  gameOver: 0
 --- !u!54 &1829423463
 Rigidbody:
   m_ObjectHideFlags: 0
